@@ -4,12 +4,7 @@ exports[`main integration tests Work well with Angular commits 1`] = `
 "# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-20)
 
 
-### refactor
-
-* move DOCUMENT from platform/browser to common ([3907a65](https://github.com/angular/angular/commit/3907a65))
-
-
-### feat
+### Features
 
 * **common:** new HttpClient API ([e37f23f](https://github.com/angular/angular/commit/e37f23f))
 
@@ -20,9 +15,6 @@ exports[`main integration tests Work well with Angular commits 1`] = `
 
 exports[`main integration tests Work well with plain commits 1`] = `
 "# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-20)
-
-
-* Fix all the bugs ([6dcb09b](https://github.com/angular/angular/commit/6dcb09b))
 
 
 

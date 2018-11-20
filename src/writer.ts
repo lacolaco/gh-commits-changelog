@@ -56,22 +56,5 @@ function normalizeOptions(overrides: any) {
     doFlush: true,
     ...overrides
   };
-  options.transform = {
-    hash: (hash: string) => {
-      if (typeof hash === "string") {
-        return hash.substring(0, 7);
-      }
-    },
-    header: (header: string) => {
-      return header.substring(0, 100);
-    },
-    committerDate: (date: Date) => {
-      if (!date) {
-        return;
-      }
-      return format(date, "YYYY-MM-DD");
-    },
-    ...overrides.transform
-  };
   return options;
 }
