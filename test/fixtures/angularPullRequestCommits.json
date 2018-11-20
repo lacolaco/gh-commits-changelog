@@ -1,0 +1,160 @@
+[
+  {
+    "sha": "3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+    "node_id": "MDY6Q29tbWl0MzU0NDQxNTY6MzkwN2E2NTFhMjQzY2Y5YzJmNmI5YTBjMDVkMTdmOWU1ZWUxNTNlMw==",
+    "commit": {
+      "author": {
+        "name": "Alex Rickabaugh",
+        "email": "alx+alxhub@alxandria.net",
+        "date": "2017-06-30T20:54:08Z"
+      },
+      "committer": {
+        "name": "Alex Rickabaugh",
+        "email": "alx+alxhub@alxandria.net",
+        "date": "2017-07-06T19:42:45Z"
+      },
+      "message": "refactor: move DOCUMENT from platform/browser to common",
+      "tree": {
+        "sha": "a5d6b06807e24e0d0b471907bf2a0caed4c13f19",
+        "url": "https://api.github.com/repos/angular/angular/git/trees/a5d6b06807e24e0d0b471907bf2a0caed4c13f19"
+      },
+      "url": "https://api.github.com/repos/angular/angular/git/commits/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/angular/commits/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+    "html_url": "https://github.com/angular/angular/commit/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+    "comments_url": "https://api.github.com/repos/angular/angular/commits/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3/comments",
+    "author": {
+      "login": "alxhub",
+      "id": 4175141,
+      "node_id": "MDQ6VXNlcjQxNzUxNDE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4175141?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alxhub",
+      "html_url": "https://github.com/alxhub",
+      "followers_url": "https://api.github.com/users/alxhub/followers",
+      "following_url": "https://api.github.com/users/alxhub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alxhub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alxhub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alxhub/subscriptions",
+      "organizations_url": "https://api.github.com/users/alxhub/orgs",
+      "repos_url": "https://api.github.com/users/alxhub/repos",
+      "events_url": "https://api.github.com/users/alxhub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alxhub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alxhub",
+      "id": 4175141,
+      "node_id": "MDQ6VXNlcjQxNzUxNDE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4175141?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alxhub",
+      "html_url": "https://github.com/alxhub",
+      "followers_url": "https://api.github.com/users/alxhub/followers",
+      "following_url": "https://api.github.com/users/alxhub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alxhub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alxhub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alxhub/subscriptions",
+      "organizations_url": "https://api.github.com/users/alxhub/orgs",
+      "repos_url": "https://api.github.com/users/alxhub/repos",
+      "events_url": "https://api.github.com/users/alxhub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alxhub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c69fff15c9e001bd636b180758f1102d338564fb",
+        "url": "https://api.github.com/repos/angular/angular/commits/c69fff15c9e001bd636b180758f1102d338564fb",
+        "html_url": "https://github.com/angular/angular/commit/c69fff15c9e001bd636b180758f1102d338564fb"
+      }
+    ]
+  },
+  {
+    "sha": "e37f23f52c0d46126c3d15f6dac2e573c838a353",
+    "node_id": "MDY6Q29tbWl0MzU0NDQxNTY6ZTM3ZjIzZjUyYzBkNDYxMjZjM2QxNWY2ZGFjMmU1NzNjODM4YTM1Mw==",
+    "commit": {
+      "author": {
+        "name": "Alex Rickabaugh",
+        "email": "alx+alxhub@alxandria.net",
+        "date": "2017-03-23T00:13:24Z"
+      },
+      "committer": {
+        "name": "Alex Rickabaugh",
+        "email": "alx+alxhub@alxandria.net",
+        "date": "2017-07-06T22:16:05Z"
+      },
+      "message": "feat(common): new HttpClient API\n\nHttpClient is an evolution of the existing Angular HTTP API, which exists\nalongside of it in a separate package, @angular/common/http. This structure\nensures that existing codebases can slowly migrate to the new API.\n\nThe new API improves significantly on the ergonomics and features of the legacy\nAPI. A partial list of new features includes:\n\n* Typed, synchronous response body access, including support for JSON body types\n* JSON is an assumed default and no longer needs to be explicitly parsed\n* Interceptors allow middleware logic to be inserted into the pipeline\n* Immutable request/response objects\n* Progress events for both request upload and response download\n* Post-request verification & flush based testing framework",
+      "tree": {
+        "sha": "32ba4bb2ff85d0198b8e92fd37d55a39c8932827",
+        "url": "https://api.github.com/repos/angular/angular/git/trees/32ba4bb2ff85d0198b8e92fd37d55a39c8932827"
+      },
+      "url": "https://api.github.com/repos/angular/angular/git/commits/e37f23f52c0d46126c3d15f6dac2e573c838a353",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/angular/commits/e37f23f52c0d46126c3d15f6dac2e573c838a353",
+    "html_url": "https://github.com/angular/angular/commit/e37f23f52c0d46126c3d15f6dac2e573c838a353",
+    "comments_url": "https://api.github.com/repos/angular/angular/commits/e37f23f52c0d46126c3d15f6dac2e573c838a353/comments",
+    "author": {
+      "login": "alxhub",
+      "id": 4175141,
+      "node_id": "MDQ6VXNlcjQxNzUxNDE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4175141?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alxhub",
+      "html_url": "https://github.com/alxhub",
+      "followers_url": "https://api.github.com/users/alxhub/followers",
+      "following_url": "https://api.github.com/users/alxhub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alxhub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alxhub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alxhub/subscriptions",
+      "organizations_url": "https://api.github.com/users/alxhub/orgs",
+      "repos_url": "https://api.github.com/users/alxhub/repos",
+      "events_url": "https://api.github.com/users/alxhub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alxhub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alxhub",
+      "id": 4175141,
+      "node_id": "MDQ6VXNlcjQxNzUxNDE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4175141?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alxhub",
+      "html_url": "https://github.com/alxhub",
+      "followers_url": "https://api.github.com/users/alxhub/followers",
+      "following_url": "https://api.github.com/users/alxhub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alxhub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alxhub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alxhub/subscriptions",
+      "organizations_url": "https://api.github.com/users/alxhub/orgs",
+      "repos_url": "https://api.github.com/users/alxhub/repos",
+      "events_url": "https://api.github.com/users/alxhub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alxhub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+        "url": "https://api.github.com/repos/angular/angular/commits/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+        "html_url": "https://github.com/angular/angular/commit/3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3"
+      }
+    ]
+  }
+]

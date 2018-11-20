@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parser integration tests Work well with Angular commits 1`] = `
+Array [
+  Object {
+    "body": null,
+    "footer": null,
+    "hash": "3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
+    "header": "refactor: move DOCUMENT from platform/browser to common",
+    "mentions": Array [],
+    "merge": null,
+    "notes": Array [],
+    "references": Array [],
+    "revert": null,
+    "scope": null,
+    "subject": "move DOCUMENT from platform/browser to common",
+    "type": "refactor",
+  },
+  Object {
+    "body": "HttpClient is an evolution of the existing Angular HTTP API, which exists
+alongside of it in a separate package, @angular/common/http. This structure
+ensures that existing codebases can slowly migrate to the new API.
+
+The new API improves significantly on the ergonomics and features of the legacy
+API. A partial list of new features includes:
+
+* Typed, synchronous response body access, including support for JSON body types
+* JSON is an assumed default and no longer needs to be explicitly parsed
+* Interceptors allow middleware logic to be inserted into the pipeline
+* Immutable request/response objects
+* Progress events for both request upload and response download
+* Post-request verification & flush based testing framework",
+    "footer": null,
+    "hash": "e37f23f52c0d46126c3d15f6dac2e573c838a353",
+    "header": "feat(common): new HttpClient API",
+    "mentions": Array [
+      "angular",
+    ],
+    "merge": null,
+    "notes": Array [],
+    "references": Array [],
+    "revert": null,
+    "scope": "common",
+    "subject": "new HttpClient API",
+    "type": "feat",
+  },
+]
+`;
+
+exports[`parser integration tests Work well with plain commits 1`] = `
+Array [
+  Object {
+    "body": null,
+    "footer": null,
+    "hash": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+    "header": "Fix all the bugs",
+    "mentions": Array [],
+    "merge": null,
+    "notes": Array [],
+    "references": Array [],
+    "revert": null,
+    "scope": null,
+    "subject": null,
+    "type": null,
+  },
+]
+`;

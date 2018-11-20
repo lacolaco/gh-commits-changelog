@@ -1,0 +1,35 @@
+{
+  "name": "@lacolaco/gh-commits-changelog",
+  "version": "1.0.0",
+  "description": "Generate conventional-changelog from GitHub commits instead of raw git data",
+  "main": "index.js",
+  "author": "Suguru Inatomi <suguru.inatomi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write './src/**/*.ts'",
+    "clean": "rimraf tsc-out",
+    "prebuild": "yarn clean",
+    "build": "tsc --declaration",
+    "preversion": "yarn test && yarn build"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.17.0",
+    "conventional-changelog-angular": "^5.0.2",
+    "conventional-changelog-core": "^3.1.5",
+    "conventional-changelog-writer": "^4.0.2",
+    "conventional-commits-parser": "^3.0.1",
+    "date-fns": "^1.29.0",
+    "handlebars": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.0.39",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.9",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  }
+}
