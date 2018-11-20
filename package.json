@@ -1,6 +1,6 @@
 {
   "name": "@lacolaco/gh-commits-changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate conventional-changelog from GitHub commits instead of raw git data",
   "main": "index.js",
   "author": "Suguru Inatomi <suguru.inatomi@gmail.com>",
