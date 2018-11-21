@@ -16,14 +16,22 @@ export type Context = {
   date?: string;
 };
 
-export async function main(ghCommits: Array<GitHubCommit>, context: Context) {
+export async function main(
+  ghCommits: Array<GitHubCommit>,
+  context: Context,
+  parserOpts: any = {},
+  writerOpts: any = {}
+) {
   const config = await mergeConfig(
     {
       config: angular
     },
     {
       ...context
-    }
+    },
+    {}, // gitRawCommitsOpts
+    { ...parserOpts },
+    { ...writerOpts }
   );
   const parser = createParser(config.parserOpts);
   const writer = createWriter(config.writerOpts);
