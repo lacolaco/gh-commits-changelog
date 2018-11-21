@@ -39,7 +39,6 @@ export function createWriter(options: WriterOptions) {
         return processCommit(commit, options.transform, context);
       })
       .filter(commit => !!commit);
-    console.log(processedCommits);
     return generate(options, processedCommits, context, commits[0]);
   };
 }

@@ -10,7 +10,9 @@ export function createParser(parserOpts: Object) {
 
       return {
         ...conventionalCommit,
-        hash: commit.sha
+        hash: commit.sha,
+        author: commit.author.login,
+        committer: commit.committer.login
       };
     }) as Array<ConventionalCommit>;
   };

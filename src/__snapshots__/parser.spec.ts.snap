@@ -3,7 +3,9 @@
 exports[`parser integration tests Work well with Angular commits 1`] = `
 Array [
   Object {
+    "author": "alxhub",
     "body": null,
+    "committer": "alxhub",
     "footer": null,
     "hash": "3907a651a243cf9c2f6b9a0c05d17f9e5ee153e3",
     "header": "refactor: move DOCUMENT from platform/browser to common",
@@ -17,6 +19,7 @@ Array [
     "type": "refactor",
   },
   Object {
+    "author": "alxhub",
     "body": "HttpClient is an evolution of the existing Angular HTTP API, which exists
 alongside of it in a separate package, @angular/common/http. This structure
 ensures that existing codebases can slowly migrate to the new API.
@@ -30,6 +33,7 @@ API. A partial list of new features includes:
 * Immutable request/response objects
 * Progress events for both request upload and response download
 * Post-request verification & flush based testing framework",
+    "committer": "alxhub",
     "footer": null,
     "hash": "e37f23f52c0d46126c3d15f6dac2e573c838a353",
     "header": "feat(common): new HttpClient API",
@@ -50,7 +54,9 @@ API. A partial list of new features includes:
 exports[`parser integration tests Work well with plain commits 1`] = `
 Array [
   Object {
+    "author": "octocat",
     "body": null,
+    "committer": "octocat",
     "footer": null,
     "hash": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
     "header": "Fix all the bugs",
