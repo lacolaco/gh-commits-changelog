@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`main integration tests Work well with Angular commits 1`] = `
-"# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-20)
+"# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-11)
 
 
 ### Features
@@ -14,7 +14,7 @@ exports[`main integration tests Work well with Angular commits 1`] = `
 `;
 
 exports[`main integration tests Work well with plain commits 1`] = `
-"# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-20)
+"# [Release 2018-11-20](https://github.com/angular/angular/compare/c69fff15c9e001bd636b180758f1102d338564fb...e37f23f52c0d46126c3d15f6dac2e573c838a353) (2018-11-11)
 
 
 

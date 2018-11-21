@@ -1,3 +1,3 @@
-const main = require('./tsc-out/main');
+const { main } = require('./tsc-out/main');
 
 module.exports = main;
